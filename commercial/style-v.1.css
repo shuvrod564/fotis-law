@@ -1,0 +1,735 @@
+
+* {  margin:0;padding:0;box-sizing:border-box; }
+html { font-size:100%;overflow-x: hidden; } 
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Crimson Text", serif;
+}
+
+p,
+ul {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+}
+
+.header-inner {
+    padding: 30px 0;
+}
+
+.header-logo {
+    text-align: left;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.normal-view {
+    width: 100%;
+}
+
+.header-contact {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+}
+
+.header-contact h3 {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-content {
+    background-image: url(./images/landscape.webp);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.thank-you-header-content {
+    height: 100vh;
+}
+
+.header-contact p {
+    font-size: 14px;
+}
+
+.header-content h1 {
+    font-family: "Crimson Text", serif;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+.header-content h1 span {
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 2px solid #dcb162;
+}
+
+.header-content p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.header-content-list {
+    margin-top: 30px;
+}
+
+.tick {
+    height: 25px;
+    width: auto;
+    margin-top: 0.25rem;
+}
+
+.header-content-list-item p {
+    margin-top: 0px;
+}
+
+.header-content-list-item p img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.header-content-list-para {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.common-button {
+    background-color: #dcb162;
+    color: #fff !important;
+    border: none;
+    padding: 13px 20px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.company-items-section {
+    padding: 50px 0 30px;
+}
+
+.company-items-section p span {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+}
+
+.company-items-section p span b {
+    font-weight: 400;
+}
+
+.company-items-section p span b:first-child,
+.company-items-section p span b:nth-child(4) {
+    color: #4188FA;
+}
+
+.company-items-section p span b:nth-child(2),
+.company-items-section p span b:last-child {
+    color: #E91534;
+}
+
+.company-items-section p span b:nth-child(3) {
+    color: #FFB203;
+}
+
+.company-items-section p span b:nth-child(5) {
+    color: #0DC500;
+}
+
+hr {
+    color: #dcb162;
+}
+
+.what-we-do-section {
+    padding: 50px 0;
+}
+
+.what-we-do-section h2 {
+    color: #dcb162;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.what-we-do-items {
+    padding-top: 30px;
+}
+
+.what-we-do-items p {
+    margin-bottom: 45px;
+}
+
+.what-we-do-items img {
+    height: 25px;
+    width: auto;
+}
+
+
+/* .what-we-do-items ul li {
+    margin-top: 25px;
+}
+
+.what-we-do-items ul li::marker {
+    background-image: url('./images/svg/TICK.svg');
+    background-size: contain;
+} */
+
+.attorneys-section {
+    background-image: url("./images/sky.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.attorneys-section h2 {
+    color: #fff;
+    font-size: 40px;
+    padding: 100px 0 20px;
+    font-weight: bold;
+}
+
+.attorneys-section ul {
+    padding-left: 0;
+}
+
+.attorney-name ul li {
+    list-style: none;
+}
+
+.attorney-name h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.attorneys-section-content {
+    text-align: justify;
+}
+
+.practice-areas-section {
+    padding: 100px 0 0px;
+}
+
+.practice-areas-section h2 {
+    font-size: 40px;
+}
+
+.practice-areas-section h2 span {
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 3px solid #dcb162;
+}
+
+.practice-area-items-section a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-weight: 500;
+}
+
+.practice-area-items {
+    border: 1px solid #dcb162;
+    border-radius: 0.5rem;
+    padding: 20px 40px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.practice-area-items img {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.practice-area-section-2 {
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+.form-control {
+    border-radius: 0;
+    font-family: "Poppins", sans-serif;
+    padding: 0.6rem 0.75rem;
+}
+
+.form-field {
+    margin: 15px 0;
+}
+
+.contact-form-section h3 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.header-form {
+    padding: 50px 20px 20px;
+}
+
+.header-form h3 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.header-form p {
+    color: #000;
+}
+
+.header-form span {
+    display: inline-block;
+    border-bottom: 3px solid #dcb162;
+}
+
+.header-form .form-control {
+    border-bottom: 1px solid #ced4da;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contact-form-section-right {
+    background-color: #242d4e;
+    padding: 30px;
+}
+
+.contact-form-section-right h3 {
+    color: #dcb162;
+}
+
+.contact-form-section-right p {
+    color: #fff;
+}
+
+footer {
+    background-color: #242d4e;
+    padding-top: 15px;
+}
+
+footer p {
+    color: #fff;
+}
+
+.attorneys-inner-section {
+    padding: 0 50px;
+}
+
+.attorneys-inner-section-img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.mobile-practise-area {
+    display: none;
+}
+
+.practice-area-items a {
+    text-decoration: none;
+    color: #dcb162;
+}
+
+.contact-form-section-inner {
+    margin: 50px;
+}
+
+.contact-form-section-inner p {
+    font-size: 15px;
+}
+
+.above-footer {
+    margin-bottom: 50px;
+}
+
+
+/*Criminal list css*/
+
+.header-content-list.border-start {
+    margin-left: 0;
+    border-left: 3px solid #dcb162 !important;
+    padding-left: 1rem;
+}
+
+.inner-page-practice-area-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-page-practice-area-section .practice-area-items-section {
+    width: calc(100%/4 - 20px);
+    margin-bottom: 1.8rem;
+    text-align: left;
+}
+
+.inner-page-practice-area-section .practice-area-items-section .practice-area-items {
+    padding: 15px 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.inner-page-practice-area-section .hide-mobile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-page-practice-area-section .hide-mobile .practice-area-items-section {
+    width: calc(100%/4 - 20px);
+    display: inline-block;
+}
+
+.inner-page-practice-area-section .show-btn {
+    display: none;
+}
+
+.siq_bL {
+    bottom: 40px!important;
+}
+
+.floating-btn-call {
+  position: fixed;
+  bottom: 95px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  z-index: 1000;
+}
+
+.floating-btn-call a {
+    color: #7700d8!important;
+}
+
+.contact-icon {
+  background-color: #7700d8;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  font-size:22px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 0 #42db87;
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+}
+
+/*----------------------------*/
+
+.floating_btn {
+  position: fixed;
+  bottom: 0px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  z-index: 1000;
+}
+
+.floating_btn a {
+    color: #42db87!important;
+}
+
+@keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  }
+}
+
+.contact_icon {
+  background-color: #42db87;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  font-size:30px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(0px);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 #42db87;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  transition: all 300ms ease-in-out;
+}
+
+
+.text_icon {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 13px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header-content {
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+    .practice-area-items {
+        padding: 20px;
+    }
+    .hide-mobile {
+        display: none !important;
+    }
+    .hide-mobile.show {
+        display: block !important;
+    }
+    .inner-page-practice-area-section .practice-area-items-section,
+    .inner-page-practice-area-section .hide-mobile .practice-area-items-section {
+        width: calc(100%/2 - 5px);
+        display: inline-block;
+    }
+    .inner-page-practice-area-section .show-btn {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mobile-view {
+        display: block;
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .mobile-banner {
+        padding-bottom: 30px;
+    }
+    .normal-view {
+        display: none;
+    }
+    .mobile-header-mail {
+        color: #fff;
+        font-size: 13px;
+        text-align: right;
+    }
+    .mobile-review {
+        height: 35px;
+        padding-left: 15px;
+    }
+    .mobile-header-logo {
+        height: 35px;
+        padding-left: 15px;
+    }
+    .header-content {
+        height: 100%;
+        padding-top: 10rem;
+    }
+    .header-content h1 {
+        font-size: 30px;
+    }
+    .header-content h1 span {
+        display: inline;
+    }
+    .header-content h1 br {
+        display: none;
+    }
+    .header-form {
+        padding: 20px 20px 20px;
+        margin-top: 20px;
+        box-shadow: 6px 7px 40px #0000001f;
+    }
+    .header-form h3 {
+        font-size: 30px;
+    }
+    .header-content-list-para {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .company-items-section {
+        padding: 25px 20px;
+    }
+    .company-items {
+        padding-top: 20px;
+    }
+    .attorneys-inner-section {
+        padding: 15px;
+        justify-content: center;
+    }
+    .what-we-do-section h2 {
+        padding: 0 25px;
+    }
+    .what-we-do-inner-section {
+        padding: 0 25px;
+    }
+    .mobile-practise-area {
+        display: block;
+    }
+    .practice-area-items {
+        padding: 20px 30px;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+    .practice-area-items p {
+        margin: 10px;
+    }
+    .contact-form-section-inner {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .above-footer {
+        margin-bottom: 0px;
+    }
+    .company-items p {
+        font-weight: 500;
+    }
+    .practice-areas-section {
+        padding: 60px 0 0px;
+    }
+    .attorneys-section h2 {
+        padding: 40px 0 20px;
+    }
+    .attorney-name h4 {
+        font-size: 19px;
+    }
+    .practice-areas-section h2 {
+        font-size: 40px;
+        text-align: left;
+        padding-left: 1rem;
+    }
+    .attorney-name {
+        margin-left: 0.5rem;
+    }
+    .attorney-name ul li {
+        list-style: none;
+        font-size: 0.875rem;
+    }
+    .contact-form-section-right h3 {
+        font-size: 1.5rem;
+    }
+    .floating-btn-call {
+    position: fixed;
+    bottom: 50%;
+    right: 0px;
+    }
+    .floating_btn {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    }
+    .thank-you-header-content {
+    height: 100vh;
+    padding-top: initial;
+    text-align: center;
+}
+.thank-you-header-content .header-content-list-para{
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .header-content {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inner-page-practice-area-section .practice-area-items-section,
+    .inner-page-practice-area-section .hide-mobile .practice-area-items-section {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .mobile-view {
+        right: unset;
+    }
+    .inner-page-practice-area-section .practice-area-items-section,
+    .inner-page-practice-area-section .hide-mobile .practice-area-items-section {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .floating-btn-call {
+    position: fixed;
+    bottom: 50%;
+    right: 0px;
+    }
+    .floating_btn {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    }
+}
+
+
+
+/*------------ New Team Wrapper Styles -------------------*/
+.owl-dots { display: flex;justify-content: center;margin-top: 1rem; }
+.owl-dots .owl-dot {
+    width: 10px;height: 10px;border-radius: 50%;display: inline-block;background-color: #909090 !important;margin: 0 .2rem 0;
+}
+.owl-dots .owl-dot.active {
+    width: 30px;height: 10px;background-color: #DCB161 !important;border-radius: 10px;
+}
+.member__card {
+    background-color: #fff; 
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #E0E0E0;border-radius:.45rem;
+    overflow-x: hidden !important;
+}
+.member__card .caption img{
+    width: 1.75rem;
+    height: auto;
+}
+.teamCarousel .member__card .h3 {  
+    font-size:1.45rem;font-weight:600;margin-bottom:.5rem;
+}
+.teamCarousel .member__card .h3 a {
+  color: #242D4E;text-decoration:none;
+  transition: all .3s ease-in-out;font-family: "Poppins", sans-serif;
+}
+.teamCarousel .owl-item {
+    padding: .75rem;
+}

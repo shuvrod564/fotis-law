@@ -1,0 +1,47 @@
+[29-Aug-2021 08:19:44 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:47 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:48 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:51 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 08:19:52 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/family-law.php on line 367
+[29-Aug-2021 12:05:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php on line 35
+[29-Aug-2021 12:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php on line 32
+[29-Aug-2021 13:24:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php:32) in /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php on line 33
+[29-Aug-2021 13:25:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php:32) in /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php on line 33
+[29-Aug-2021 13:28:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php:32) in /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php on line 33
+[29-Aug-2021 13:32:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php:32) in /home/embraceindia/fotislawcorporate.embraceindia.in/contact-form.php on line 33
+[19-Sep-2021 16:18:56 UTC] PHP Notice:  Undefined index: name in /home/fotislaw/public_html/corporate/contact-form.php on line 2
+[19-Sep-2021 16:18:56 UTC] PHP Notice:  Undefined index: email in /home/fotislaw/public_html/corporate/contact-form.php on line 3
+[19-Sep-2021 16:18:56 UTC] PHP Notice:  Undefined index: phone in /home/fotislaw/public_html/corporate/contact-form.php on line 4
+[19-Sep-2021 16:18:56 UTC] PHP Notice:  Undefined index: message in /home/fotislaw/public_html/corporate/contact-form.php on line 5
+[30-Sep-2021 13:43:04 UTC] PHP Notice:  Undefined index: name in /home/fotislaw/public_html/corporate/contact-form.php on line 2
+[30-Sep-2021 13:43:04 UTC] PHP Notice:  Undefined index: email in /home/fotislaw/public_html/corporate/contact-form.php on line 3
+[30-Sep-2021 13:43:04 UTC] PHP Notice:  Undefined index: phone in /home/fotislaw/public_html/corporate/contact-form.php on line 4
+[30-Sep-2021 13:43:04 UTC] PHP Notice:  Undefined index: message in /home/fotislaw/public_html/corporate/contact-form.php on line 5
+[27-Oct-2021 05:16:54 UTC] PHP Notice:  Undefined index: name in /home/fotislaw/public_html/corporate/contact-form.php on line 2
+[27-Oct-2021 05:16:54 UTC] PHP Notice:  Undefined index: email in /home/fotislaw/public_html/corporate/contact-form.php on line 3
+[27-Oct-2021 05:16:54 UTC] PHP Notice:  Undefined index: phone in /home/fotislaw/public_html/corporate/contact-form.php on line 4
+[27-Oct-2021 05:16:54 UTC] PHP Notice:  Undefined index: message in /home/fotislaw/public_html/corporate/contact-form.php on line 5
+[27-Nov-2021 05:48:37 UTC] PHP Notice:  Undefined index: name in /home/fotislaw/public_html/corporate/contact-form.php on line 2
+[27-Nov-2021 05:48:37 UTC] PHP Notice:  Undefined index: email in /home/fotislaw/public_html/corporate/contact-form.php on line 3
+[27-Nov-2021 05:48:37 UTC] PHP Notice:  Undefined index: phone in /home/fotislaw/public_html/corporate/contact-form.php on line 4
+[27-Nov-2021 05:48:37 UTC] PHP Notice:  Undefined index: message in /home/fotislaw/public_html/corporate/contact-form.php on line 5
+[28-Dec-2021 16:10:07 UTC] PHP Notice:  Undefined index: name in /home/fotislaw/public_html/corporate/contact-form.php on line 2
+[28-Dec-2021 16:10:07 UTC] PHP Notice:  Undefined index: email in /home/fotislaw/public_html/corporate/contact-form.php on line 3
+[28-Dec-2021 16:10:07 UTC] PHP Notice:  Undefined index: phone in /home/fotislaw/public_html/corporate/contact-form.php on line 4
+[28-Dec-2021 16:10:07 UTC] PHP Notice:  Undefined index: message in /home/fotislaw/public_html/corporate/contact-form.php on line 5
+[23-Jan-2022 09:21:16 UTC] PHP Notice:  Undefined index: name in /home/fotislaw/public_html/corporate/contact-form.php on line 2
+[23-Jan-2022 09:21:16 UTC] PHP Notice:  Undefined index: email in /home/fotislaw/public_html/corporate/contact-form.php on line 3
+[23-Jan-2022 09:21:16 UTC] PHP Notice:  Undefined index: phone in /home/fotislaw/public_html/corporate/contact-form.php on line 4
+[23-Jan-2022 09:21:16 UTC] PHP Notice:  Undefined index: message in /home/fotislaw/public_html/corporate/contact-form.php on line 5
+[25-Jan-2022 13:00:36 UTC] PHP Notice:  Undefined index: name in /home/fotislaw/public_html/corporate/contact-form.php on line 2
+[25-Jan-2022 13:00:36 UTC] PHP Notice:  Undefined index: email in /home/fotislaw/public_html/corporate/contact-form.php on line 3
+[25-Jan-2022 13:00:36 UTC] PHP Notice:  Undefined index: phone in /home/fotislaw/public_html/corporate/contact-form.php on line 4
+[25-Jan-2022 13:00:36 UTC] PHP Notice:  Undefined index: message in /home/fotislaw/public_html/corporate/contact-form.php on line 5
