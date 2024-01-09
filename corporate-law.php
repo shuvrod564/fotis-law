@@ -1,44 +1,12 @@
 <!doctype html>
 <html lang="en"> 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PPRHP92');
-    </script>
-    <!-- End Google Tag Manager -->
-    <meta name="google-site-verification" content="18ECvFVjzZEpkeRlTGyeIUUdtVr4ESLx5fw3mRKH9tM" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
     <title>Corporate Lawyers in Dubai | Best Corporate Law Firm in UAE</title>
     <link rel="canonical" href="<?php echo $base_url; ?>corporate-law.php" />
-    <meta name="description" content="The expertise of our corporate lawyers in Dubai and UAE helps to counsel clients on intricate corporate cross-border businesses and delicate internal corporate structuring matters." />
-    <meta name="keywords" content="corporate lawyers in dubai" />
-    <meta property="og:title" content="Corporate Lawyers in Dubai | Best Corporate Law Firm in UAE" />
-    <meta property="og:description" content="The expertise of our corporate lawyers in Dubai and UAE helps to counsel clients on intricate corporate cross-border businesses and delicate internal corporate structuring matters." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="<?php echo $base_url; ?>corporate-law.php" />
-    <meta property="og:image" content="<?php echo $base_url; ?>wp-content/uploads/2021/05/Lawyers-in-Dubai-e1621256999180.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@FotisLaw" />
-    <meta name="twitter:creator" content="@FotisLaw" />
-    <meta name="twitter:title" content="Corporate Lawyers in Dubai | Best Corporate Law Firm in UAE" />
-    <meta property="twitter:description" content="The expertise of our corporate lawyers in Dubai and UAE helps to counsel clients on intricate corporate cross-border businesses and delicate internal corporate structuring matters." />
-    <meta name="twitter:image" content="<?php echo $base_url; ?>wp-content/uploads/2021/05/Lawyers-in-Dubai-e1621256999180.png" />
-    <link rel="icon" type="image/png" href="<?php echo $base_url; ?>wp-content/uploads/2021/05/Lawyers-in-Dubai-e1621256999180.png" />
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
      
     <!-- Stylesheets -->
     <?php  include_once "includes/stylesheet.inc.php" ?> 

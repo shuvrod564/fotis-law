@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en"> 
 <head>
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
-    <!-- End Google Tag Manager -->
-    <meta name="google-site-verification" content="18ECvFVjzZEpkeRlTGyeIUUdtVr4ESLx5fw3mRKH9tM" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <title>Administrative Lawyers in Dubai | Administrative Law UAE</title>
     <link rel="canonical" href="<?php echo $base_url;?>administrative-law.php" />
      
