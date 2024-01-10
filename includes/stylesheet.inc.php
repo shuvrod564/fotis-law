@@ -16,8 +16,8 @@
 
     <style>
         :root {
-            --check-dark:url('<?php echo $base_url;?>assets/images/checked-dark.svg'); 
-            --check-colored:url('<?php echo $base_url;?>assets/images/checked-colored.svg'); 
+            --check-dark:url('<?php echo $base_url;?>assets/images/icons/checked-dark.svg'); 
+            --check-colored:url('<?php echo $base_url;?>assets/images/icons/checked-colored.svg'); 
             --white-check:url('<?php echo $base_url;?>assets/images/icons/White_TICK.svg'); 
         }
          

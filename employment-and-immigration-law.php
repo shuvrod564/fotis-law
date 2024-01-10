@@ -13,16 +13,12 @@
     
 
 </head> 
-<body> 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPRHP92"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<body>  
 
     <?php  include_once "includes/header.inc.php"; ?>
     
     <!--Header Wrapper-->
-    <div class="inner-header subpage" style="background: #000 url('assets/images/practics/Employment and-Immigration-Law.jpg') no-repeat center center / cover;">
+    <div class="inner-header subpage" style="background: #000 url('assets/images/webp/Employment-and-Immigration-Law.jpg') no-repeat center center / cover;">
         <div class="container">
             <p class="h1 text-start">Best Labour Lawyers in UAE</p>
             <ul class="text-white check__list ps-0">

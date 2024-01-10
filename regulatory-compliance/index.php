@@ -11,12 +11,12 @@
     <!-- All Stylesheets -->
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.9/css/jquery.mb.YTPlayer.min.css" integrity="sha512-+HWFHCZZfMe4XQRKS0bOzQ1r4+G2eknhMqP+FhFIkcmWPJlB4uFaIagSIRCKDOZI3IHc0t7z4+N/g2hIaO/JIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
     
-    <?php $folder='compliance-lawyers'; include_once('../__stylesheet.inc.php'); ?> 
+    <?php $folder='compliance-lawyers'; include_once('../includes/stylesheet.inc.php'); ?> 
 </head>
 <body> 
 
     <!-- Preloader, Main Navigation Menu --> 
-    <?php $folder='compliance-lawyers'; include_once('../header.php'); ?> 
+    <?php $folder='compliance-lawyers'; include_once('../includes/header.inc.php'); ?> 
 
     <!-- Header Wrapper Start -->
     <header class="inner-header subpage new-home d-flex align-items-center position-relative py-5 overflow-hidden"> 
@@ -144,11 +144,11 @@
     </section>
     <!-- Practice Area wrapper start -->
   
-    <?php require "../footer-top.php" ?>
+    <?php include_once "../includes/footer-top.inc.php"; ?>
     <?php require "../__map.inc.php" ?>
    
     <!-- Footer and Script List --> 
-    <?php $folder='compliance-lawyers'; include_once('../footer.php'); ?> 
+    <?php $folder='compliance-lawyers'; include_once('../includes/footer.inc.php'); ?> 
     
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.9/jquery.mb.YTPlayer.min.js" integrity="sha512-rVFx7vXgVV8cmgG7RsZNQ68CNBZ7GL3xTYl6GAVgl3iQiSwtuDjTeE1GESgPSCwkEn/ijFJyslZ1uzbN3smwYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
     <!-- <script src="assets/js/jquery.mb.YTPlayer.min.js"></script> -->

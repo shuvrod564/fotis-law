@@ -9,12 +9,12 @@
     <title>Specialized Training Solutions</title>
  
     <!-- All Stylesheets -->
-    <?php $folder='compliance-lawyers'; include_once('../__stylesheet.inc.php'); ?> 
+    <?php $folder='compliance-lawyers'; include_once('../includes/stylesheet.inc.php'); ?> 
 </head>
 <body> 
 
     <!-- Preloader, Main Navigation Menu --> 
-    <?php $folder='compliance-lawyers'; include_once('../header.php'); ?> 
+    <?php $folder='compliance-lawyers'; include_once('../includes/header.inc.php'); ?> 
 
     <!--Header Wrapper-->
     <div class="inner-header subpage" style="background: #000 url('assets/images/banners/specialized-training-solutions-header-bg.webp') no-repeat center center / cover;">
@@ -47,11 +47,11 @@
 
 
       
-    <?php require "../footer-top.php" ?>
+    <?php include_once "../includes/footer-top.inc.php"; ?>
     <?php require "../__map.inc.php" ?>
 
     <!-- Footer and Script List --> 
-    <?php $folder='compliance-lawyers'; include_once('../footer.php'); ?> 
+    <?php $folder='compliance-lawyers'; include_once('../includes/footer.inc.php'); ?> 
  
 </body>
 </html>

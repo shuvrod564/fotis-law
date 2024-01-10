@@ -21,8 +21,8 @@
          </div> 
       </div>
 
-      <div class="container  smalltitle">
-         <span class="mb-3">Last updated on 10 September 2020.</span>
+      <div class="container  smalltitle pt-5">
+         <span class="mb-3 text-primary fw-bold">Last updated on 10 September 2020.</span>
          <p class="">We (Fotis) endeavor to safeguard all information that is shared with us and respect the privacy of our lawyers, personnel, clients, law students, researchers and other users at all times. These privacy policies (the Privacy Policy) stipulate the provisions governing the accumulation, collection, deletion, disclosure, transfer and usage of such information and cookies for all websites, online blogs, domains and other internet sites that are owned or operated by or on behalf of Fotis (collectively referred to as the Websites), including (without limitation):</p>
          <ul class="mb-3 mb-md-4 mb-lg-5">
             <li>https://fotislaw.com</li>
@@ -32,7 +32,7 @@
          </ul>
       </div>
       <!-- ------------------Accordion----------------- -->
-      <section>
+      <section class="pt-5">
          <div class="container">
             <div class="row mb-5">
                <div class="col-md-12">
@@ -235,8 +235,6 @@
          }
          })();
       </script>
-      <?php
-         require "footer.php"
-         ?>
+      <?php include_once "includes/footer.inc.php"; ?>
    </body>
 </html>

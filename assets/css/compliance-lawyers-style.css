@@ -4,12 +4,12 @@
 }
 
 /*======================= Header Wrapper Styles ========================*/
-.inner-header subpage.new-home {
+.inner-header.new-home {
   min-height: calc(100vh + 3rem);
   padding-top: 8rem !important;
   position: relative;
 }
-.inner-header subpage.new-home video {
+.inner-header.new-home video {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,12 +19,12 @@
   height: 100%;
   border-width: 0px;
 }
-.inner-header subpage.new-home .h1 {
+.inner-header.new-home .h1 {
   font-size: calc(10px + 3vw);
 }
 
 @media (min-width: 2000px) {
-  .inner-header subpage.new-home {
+  .inner-header.new-home {
     min-height: 1080px;
   }
 }

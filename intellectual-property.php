@@ -14,15 +14,11 @@
 </head>
 <body> 
      
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPRHP92"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
+    
     <?php  include_once "includes/header.inc.php"; ?>
  
     <!--Header Wrapper-->
-    <div class="inner-header subpage" style="background: #000 url('assets/images/webp/Intellectual-Property.webp') no-repeat center center / cover;box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.85);">
+    <div class="inner-header subpage" style="background: #000 url('assets/images/webp/Intellectual-Property.webp') no-repeat center center / cover;">
         <div class="container">
             <p class="h1 text-start">Intellectual Property Lawyers in UAE</p>
             <ul class="text-white check__list ps-0">

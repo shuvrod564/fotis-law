@@ -21,7 +21,7 @@
     <?php  include_once "includes/header.inc.php"; ?>
    
     <!--Header Wrapper-->
-    <div class="inner-header subpage" style="background: #000 url('assets/images/webp/Construction_Real_Estate_up.webp') no-repeat center center / cover;box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.62);">
+    <div class="inner-header subpage" style="background: #000 url('assets/images/webp/Construction_Real_Estate_up.webp') no-repeat center center / cover;">
         <div class="container">
             <p class="h1 text-start">Reputed Property Law Counsels</p>
             <ul class="text-white check__list ps-0">

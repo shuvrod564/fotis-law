@@ -38,7 +38,8 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">About Us <i class="sub-arrow"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
                             <li class="brd-btm-gold"><a class="dropdown-item" href="<?php echo $base_url;?>the-firm.php">The Firm</a></li>
-                            <li><a class="dropdown-item" href="<?php echo $base_url;?>the-team.php">The Team</a></li>
+                            <li class="brd-btm-gold"><a class="dropdown-item" href="the-team.php">The Team</a></li>
+                            <li><a class="dropdown-item" href="location.php">Locations</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown has-megamenu">

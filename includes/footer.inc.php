@@ -3,12 +3,12 @@
         <div class="border-bottom border-dark pb-4 pt-4">
             <div class="container">
                 <ul class="d-flex flex-row flex-wrap gap-3 gap-md-4 gap-lg-5 fw-semibold justify-content-center justify-content-md-start text-uppercase">
-                    <li><a href="#">ABOUT US</a></li> 
+                    <li><a href="<?php echo $base_url;?>the-firm.php">ABOUT US</a></li> 
                     <li><a href="#">PRACTICE AREAS</a></li> 
                     <li><a href="#">SECTORS</a></li> 
                     <li><a href="#">LAWTIFY</a></li> 
-                    <li><a href="#">CAREER</a></li> 
-                    <li><a href="#">CONTACT</a></li>   
+                    <li><a href="<?php echo $base_url;?>career.php">CAREER</a></li> 
+                    <li><a href="<?php echo $base_url;?>contact-us.php">CONTACT</a></li>   
                 </ul> 
             </div>
         </div>
@@ -19,12 +19,12 @@
                         <div class="row g-3 text-start ms-auto me-auto ms-md-0" style="max-width: 300px;">
                             <div class="col-6">
                                 <a href="http://www.diac.ae/idias/">
-                                    <img src="assets/images/webp/diac_1.webp" class="img-fluid" alt="LOGO" />
+                                    <img src="<?php echo $base_url;?>assets/images/webp/diac_1.webp" class="img-fluid" alt="LOGO" />
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="https://www.difccourts.ae/">
-                                    <img src="assets/images/webp/difc_1.webp" class="img-fluid" alt="LOGO" />
+                                    <img src="<?php echo $base_url;?>assets/images/webp/difc_1.webp" class="img-fluid" alt="LOGO" />
                                 </a>
                             </div>
                         </div>
@@ -60,11 +60,11 @@
             <div class="row g-3"> 
                 <div class="col-lg-3 order-lg-2">
                     <div class="text-center text-lg-end fs14 ls50">  
-                        <a href="legal-notice.php">Dubai</a> 
+                        <a href="<?php echo $base_url;?>legal-notice.php">Dubai</a> 
                         <i class="line"></i> 
-                        <a href="abu-dhabi.php">Abu Dhabi</a> 
+                        <a href="<?php echo $base_url;?>abu-dhabi.php">Abu Dhabi</a> 
                         <i class="line"></i> 
-                        <a href="sharjah.php">Sharjah</a>  
+                        <a href="<?php echo $base_url;?>sharjah.php">Sharjah</a>  
                     </div>
                 </div><!--.//col-->
                 <div class="col-lg-9 order-lg-1"> 
@@ -72,13 +72,13 @@
                         <?php echo date("Y"); ?> © Fotis Law.
                          <!-- Designed by <a href="https://techpullers.com/services-web-design">TechPullers</a>  -->
                         <i class="line"></i> 
-                        <a href="legal-notice.php">Legal Notice</a> 
+                        <a href="<?php echo $base_url;?>legal-notice.php">Legal Notice</a> 
                         <i class="line"></i> 
-                        <a href="privacy.php">Privacy Policy</a> 
+                        <a href="<?php echo $base_url;?>privacy.php">Privacy Policy</a> 
                         <i class="line"></i> 
-                        <a href="disclaimer.php">Disclaimer</a> 
+                        <a href="<?php echo $base_url;?>disclaimer.php">Disclaimer</a> 
                         <i class="line"></i> 
-                        <a href="copyright-notice.php">Copyright Notice</a> 
+                        <a href="<?php echo $base_url;?>copyright-notice.php">Copyright Notice</a> 
                     </div>
                 </div><!--.//col-->
             </div><!--.//row-->
