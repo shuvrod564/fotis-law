@@ -24,55 +24,56 @@
     
     <?php  include_once "includes/header.inc.php"; ?>
     
-    <div class="inner-header mb-5" style="background-image:url('assets/images/webp/contact__header__bg-1.webp');box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.55);">
+    <div class="inner-header mb-0" style="background-image:url('assets/images/webp/contact__header__bg-1.webp');box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.55);">
         <div class="container">
             <h1 class="text-center h1"> Contact Us</h1>
         </div> 
     </div>
     
-    <section class="pb-5">
-        <div class="container"> 
-            <div class="row g-4 g-xl-5 align-items-center">
-                <div class="col-lg-5 smalltitle">
+    <!-- Map -->
+    <?php include_once "includes/map.inc.php"; ?> 
+    <!-- Footer -->
+    
+    <section class="p-4" style="margin-top: -7rem; position: relative;">
+        <div class="contanier">
+            <div class="row g-4 g-xl-5">
+                <div class="col-lg-4 d-flex">
                     <div class="p-4 p-xl-5 mb-4 contact__box" style="background-color:#141c2c">
                         <div class="git-box-c d-flex">
-                            <div class="float-start icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill centered" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                </svg>
-                            </div>
                             <div class="caption float-none">
-                                <h5 class="mb-1 text-white h4">Dubai</h5>
+                                <h5 class="mb-1 text-primary h2">Dubai</h5>
                                 <p class="text-white mb-0"><strong>Fotis International Consultancy Limited</strong>, Office 305, Park Towers (Tower B), Dubai, United Arab Emirates</p> 
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <div class="p-4 p-xl-5 mb-4 contact__box bg-primary">
+                        <div class="git-box-c d-flex">
+                            <div class="caption float-none">
+                                <h5 class="mb-1 text-dark h2">Abu Dhabi</h5>
+                                <p class="text-dark mb-0"><strong>Fotis International Law Firm Limited,</strong> C14, 15, Al Sarab Tower, ADGM Square, Al Maryah Island, Abu Dhabi, United Arab Emirates</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
                     <div class="p-4 p-xl-5 mb-4 contact__box" style="background-color:#141c2c">
                         <div class="git-box-c d-flex">
-                            <div class="float-start icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill centered" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                </svg>
-                            </div>
                             <div class="caption float-none">
-                                <h5 class="mb-1 text-white h4">Abu Dhabi</h5>
-                                <p class="text-white mb-0"><strong>Fotis International Law Firm Limited</strong>, C14, 15, Al Sarab Tower, ADGM Square, Al Maryah Island, Abu Dhabi, United Arab Emirates</p> 
+                                <h5 class="mb-1 text-primary h2">Fujairah</h5>
+                                <p class="text-white mb-0"><strong>Fotis International Law Firm,</strong>Creative Tower, PO Box: 4422 Fujairah, Fujairah United Arab Emirates</p> 
                             </div>
                         </div>
                     </div>
-                    <div class="p-4 p-xl-5 contact__box" style="background-color:#141c2c">
-                        <div class="git-box-c d-flex">
-                            <div class="float-start icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill centered" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                </svg>
-                            </div>
-                            <div class="caption float-none">
-                                <h5 class="mb-1 text-white h4">Fujairah</h5>
-                                <p class="text-white mb-0"><strong>Fotis International Law Firm</strong>,  Creative Tower, PO Box: 4422 Fujairah, Fujairah United Arab Emirates</p> 
-                            </div>
-                        </div>
-                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+        
+                    
                     <!--<div class="p-4 p-xl-5" style="background-color:#141c2c"> -->
                     <!--    <span class="mb-3">Get in Touch</span>-->
                     <!--    <p class="text-white">We’re here to help answer your questions. Judicial matters can be complicated, our experts are on hand to help inform you of every aspect regarding your topic. We take great pride in using our expertise for you and look forward to hearing from you.</p>-->
@@ -134,47 +135,46 @@
                     <!--        </div>-->
                     <!--    </div>-->
                     <!--</div>-->
-                </div>
-                <div class="col-lg-7"> 
-                    <h3 class="fs43 h2color">Send Us a Message</h3>
-                    <form class="form-bg mt-4" id="contact-form" method="post" action="contact-from.php">
-                        <div class="messages"></div>
-                        <div class="controls row g-3">
-                            <div class="col-12 pb-4 mb-1">
-                                <div class="form-group">
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Name">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 pb-4 mb-1">
-                                <div class="form-group">
-                                    <input id="form_email" type="email" name="email" class="form-control"
-                                        placeholder="Email" required="required" data-error="Valid email is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 pb-4 mb-1">
-                                <div class="form-group">
-                                    <input id="form_phone" type="text" name="phone" class="form-control"
-                                        placeholder="Phone">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-1">
-                                <div class="form-group pb-4">
-                                    <textarea id="form_message" name="message" class="form-control"
-                                        placeholder="Please explain your query" rows="4"></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <input type="submit" class="btn gold-bg" value="Send message">
-                            </div>
+
+
+    <section class="pb-5">
+        <div class="container">
+            <h3 class="fs43 h2color">Send Us a Message</h3>
+            <form class="form-bg mt-4" id="contact-form" method="post" action="contact-from.php">
+                <div class="messages"></div>
+                <div class="controls row g-3">
+                    <div class="col-12 pb-4 mb-1">
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name">
+                            <div class="help-block with-errors"></div>
                         </div>
-    
-                    </form>
+                    </div>
+                    <div class="col-12 pb-4 mb-1">
+                        <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control"
+                            placeholder="Email" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 pb-4 mb-1">
+                        <div class="form-group">
+                            <input id="form_phone" type="text" name="phone" class="form-control"
+                            placeholder="Phone">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-1">
+                        <div class="form-group pb-4">
+                            <textarea id="form_message" name="message" class="form-control"
+                            placeholder="Please explain your query" rows="4"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <a href="#formWrapp" class="btn btn-primary">SUBMIT</a>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
     
@@ -236,11 +236,8 @@
                     </form>
     -->
     
-
-    <!-- Map -->
-    <?php include_once "includes/map.inc.php"; ?> 
-    <!-- Footer -->
     <?php include_once "includes/footer.inc.php"; ?>
+    
 </body>
 
 </html>

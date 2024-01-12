@@ -128,9 +128,9 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
-                            aria-expanded="false">Lawtify <i class="sub-arrow"></i></a>
+                            aria-expanded="false">Lawtify/<i class="sub-arrow"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                            <li class="brd-btm-gold"><a class="dropdown-item" href="<?php echo $base_url; ?>lawtify/">Blog</a>
+                            <li class="brd-btm-gold"><a class="dropdown-item" href="<?php echo $base_url; ?>lawtify/blog.php">Blog</a>
                             </li>
                             <li><a class="dropdown-item" href="<?php echo $base_url; ?>lawtify/videopodcast/">Video Podcast</a></li>
                         </ul>
