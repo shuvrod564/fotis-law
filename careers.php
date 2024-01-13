@@ -26,7 +26,7 @@
     <!-- Header Wraper End -->
 
 
-    <section class="pb-5">
+    <section class="pb-5 text-center text-lg-start">
         <div class="container"> 
             <div class="row g-4 g-lg-5">
                 <div class="col-md-5">
@@ -39,54 +39,51 @@
                         the efficiency of the lawyers working the case or the transaction. Therefore, our firm’s human resource department has made it their
                         aim and ambition to find the right candidates who enjoy the thrill of a dynamic work culture but are also reliable and effective.
                     </p> 
-                </div>
-                <div class="brd-top-gold mt-3">&nbsp;</div>  
+                </div> 
             </div><!--.//row-->
-            <div class="row g-4 g-lg-5 align-items-center justify-content-between">
+            <div class="row gx-4gy-2 gx-lg-5 align-items-center justify-content-between brd-top-gold py-4">
                 <div class="col-lg-9">
-                    <h3 class="fs-4 h2color text-center text-lg-start fw-bold">Legal Associate (Corporate Law)</h3>
+                    <h3 class="fs-4 h2color fw-bold">Legal Associate (Corporate Law)</h3>
                     <span class="lead">We are inviting candidates with atleast three plus years’ experience to join our Corporate Law Practice</span>
                     <p>
                         Responsibilities include conducting legal research, drafting and reviewing contracts, and ensuring compliance with regulatory requirements. 
                     </p>
                 </div>
-                <div class="col-lg-2 ps-lg-5 text-center text-lg-start">
-                    <a class="nav-link btn-primary" href="#">APPLY NOW</a>
-                </div>
-                <div class="brd-top-gold mt-3">&nbsp;</div>  
+                <div class="col-lg-3 text-center text-lg-end">
+                    <a class="btn btn-primary" href="#apply">APPLY NOW</a>
+                </div>  
             </div><!--.//row-->
-            <div class="row g-4 g-lg-5 align-items-center justify-content-between">
+            <div class="row gx-4gy-2 gx-lg-5 align-items-center justify-content-between brd-top-gold py-4">
                 <div class="col-lg-9">
-                    <h3 class="fs-4 h2color text-center text-lg-start fw-bold">Senior Associate (Litigation)</h3>
+                    <h3 class="fs-4 h2color fw-bold">Senior Associate (Litigation)</h3>
                     <span class="lead">The position is for our Abu Dhabi office</span>
                     <p>
                         We are looking for experienced senior associates or senior legal consultants with ten plus years’ experience in
                         Abu Dhabi.
                     </p>
                 </div>
-                <div class="col-lg-2 ps-lg-5 text-center text-lg-start">
-                    <a class="nav-link btn-primary" href="#">APPLY NOW</a>
-                </div>
-                <div class="brd-top-gold mt-3">&nbsp;</div>  
+                <div class="col-lg-3 text-center text-lg-end">
+                    <a class="btn btn-primary" href="#apply">APPLY NOW</a>
+                </div>  
             </div><!--.//row-->
-            <div class="row g-4 g-lg-5 align-items-center justify-content-between">
+            <div class="row gx-4gy-2 gx-lg-5 align-items-center justify-content-between brd-top-gold py-4">
                 <div class="col-lg-9">
-                    <h3 class="fs-4 h2color text-center text-lg-start fw-bold">Client Coordinator</h3>
+                    <h3 class="fs-4 h2color fw-bold">Client Coordinator</h3>
                     <span class="lead">This position is for our Dubai office.</span>
                     <p>
                         Fotis International invites secretarial candidates to apply for this position.
                     </p>
                 </div>
-                <div class="col-lg-2 ps-lg-5 text-center text-lg-start">
-                    <a class="nav-link btn-primary" href="#">APPLY NOW</a>
-                </div>
-                <div class="brd-top-gold mt-3">&nbsp;</div>  
+                <div class="col-lg-3 text-center text-lg-end">
+                    <a class="btn btn-primary" href="#apply">APPLY NOW</a>
+                </div>  
             </div><!--.//row-->
+            <div class="brd-top-gold"></div>
         </div><!--.//container--> 
     </section>
 
 
-    <section class="py-4 py-lg-5">
+    <section class="pb-5 pt-4" id="apply">
         <div class="container">
             <h2 class="fs-3 h2color text-center fw-bold mb-2">Apply Here</h2>
             <p class="lead text-center fw-semibold mb-0">We’re looking for mind level to join our team</p>
