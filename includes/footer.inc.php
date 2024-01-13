@@ -4,10 +4,10 @@
             <div class="container">
                 <ul class="d-flex flex-row flex-wrap gap-3 gap-md-4 gap-lg-5 fw-semibold justify-content-center justify-content-md-start text-uppercase">
                     <li><a href="<?php echo $base_url;?>the-firm.php">ABOUT US</a></li> 
-                    <li><a href="#">PRACTICE AREAS</a></li> 
-                    <li><a href="#">SECTORS</a></li> 
-                    <li><a href="#">LAWTIFY</a></li> 
-                    <li><a href="<?php echo $base_url;?>career.php">CAREER</a></li> 
+                    <li><a href="<?php echo $base_url;?>practice-areas.php">PRACTICE AREAS</a></li> 
+                    <li><a href="<?php echo $base_url;?>sectors.php">SECTORS</a></li> 
+                    <li><a href="<?php echo $base_url;?>blog/">LAWTIFY</a></li> 
+                    <li><a href="<?php echo $base_url;?>careers.php">CAREER</a></li> 
                     <li><a href="<?php echo $base_url;?>contact-us.php">CONTACT</a></li>   
                 </ul> 
             </div>
@@ -16,15 +16,15 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6"> 
-                        <div class="row g-3 text-start ms-auto me-auto ms-md-0" style="max-width: 300px;">
-                            <div class="col-6">
+                        <div class="row g-3 text-start ms-auto me-auto ms-md-0" style="max-width:400px;">
+                            <div class="col-5">
                                 <a href="http://www.diac.ae/idias/">
                                     <img src="<?php echo $base_url;?>assets/images/webp/diac_1.webp" class="img-fluid" alt="LOGO" />
                                 </a>
                             </div>
-                            <div class="col-6">
-                                <a href="https://www.difccourts.ae/">
-                                    <img src="<?php echo $base_url;?>assets/images/webp/difc_1.webp" class="img-fluid" alt="LOGO" />
+                            <div class="col-7 d-flex">
+                                <a href="https://www.difccourts.ae/" class="d-flex w-100">
+                                    <img src="<?php echo $base_url;?>assets/images/global/diac.webp?v=1" class="img-fluid" alt="DIAC" />
                                 </a>
                             </div>
                         </div>
@@ -60,11 +60,11 @@
             <div class="row g-3"> 
                 <div class="col-lg-3 order-lg-2">
                     <div class="text-center text-lg-end fs14 ls50">  
-                        <a href="<?php echo $base_url;?>legal-notice.php">Dubai</a> 
+                        <a href="<?php echo $base_url;?>dubai.php">Dubai</a> 
                         <i class="line"></i> 
                         <a href="<?php echo $base_url;?>abu-dhabi.php">Abu Dhabi</a> 
                         <i class="line"></i> 
-                        <a href="<?php echo $base_url;?>sharjah.php">Sharjah</a>  
+                        <a href="<?php echo $base_url;?>fujairah.php">Fujairah</a>  
                     </div>
                 </div><!--.//col-->
                 <div class="col-lg-9 order-lg-1"> 

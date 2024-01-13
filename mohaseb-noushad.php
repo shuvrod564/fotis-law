@@ -12,10 +12,10 @@
     <?php  include_once "includes/stylesheet.inc.php" ?>
 
 </head>
-<body> 
+ 
+ <body>  
 
-
-    <?php  require "header.php" ?>
+    <?php  include_once "includes/header.inc.php"; ?>
 
 
     <!-- Header Wrapper Start -->

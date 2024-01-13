@@ -1,4 +1,5 @@
 <?php 
+    // $base_url = 'https://fotislaw-new.embraceindia.co.in/'; 
     $base_url = 'http://localhost/fotis-law/'; 
 
     $color="#dcb161";

@@ -10,8 +10,7 @@
      
     <!-- Stylesheets -->
     <?php  include_once "includes/stylesheet.inc.php" ?>
-    
-    <script type="application/ld+json">
+  
 
 </head>
 <body> 

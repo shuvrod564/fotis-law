@@ -220,3 +220,24 @@ ul li { list-style-type: none; }
 .brd-top-gold { border-top: 1px solid #dcb161; }
 .z-0 { z-index: 0; }
 .z-1 { z-index: 11; }
+.object-fit-cover { object-fit: cover;object-position: center center; }
+.ellipses-4 { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.ellipses-3 { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+@media (max-width:575px) {
+    .container { max-width: calc(100% - 20px); }
+}

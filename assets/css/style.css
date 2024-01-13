@@ -522,6 +522,10 @@ footer .line::after {
 .inner-header::before { content: '';background: rgba(0,0,0,.5);position: absolute;top: 0;left: 0;bottom: 0;right: 0;z-index: 0; }
 .inner-header.subpage::before { background: rgba(0,0,0,.65); } 
 .inner-header .h1 { color: var(--white);font-weight: 600; } 
+
+@media (max-width:575px) {
+    .inner-header { margin-top: -134px; }
+}
  
 .inner-header.team {
     background-color: #666;padding: 0;height: auto;margin-bottom: 4rem;
@@ -585,3 +589,27 @@ footer .line::after {
     background-repeat: no-repeat;background-size: 18px 18px;background-position: center center;
     position: absolute;top: 5px;left: 0;
 }
+
+
+ 
+.blog__caption__card { transition: all .35s ease 0s; }
+.blog__caption__card .title { transition: all .35s ease 0s; }
+.blog__caption__card .desc { height: 0;opacity: 0; transition: all .5s ease 0s; }
+.blog__caption__card:hover .desc { height: auto;opacity: 1; }
+.blog__item .thumbnail { height: 250px;object-fit: cover;object-position: center center; }
+.blog__item .desc { font-size: .937rem; }
+.pagination { box-shadow: 0 3px 6px rgba(0, 0, 0, .087);border-radius: .35rem; }
+.pagination .page-item .page-link { border: 0;font-size: 1.25rem;font-weight: 500;color: #222; }
+.pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus { background-color: #fff;color: var(--brand); }
+.pagination .page-item .page-link svg { position: relative;top: -1px; }
+
+.contact__page .form-control { border-color: #707070 !important; }
+
+.career-form .form-control { height: 3.5rem;border-color: #cacaca !important; }
+
+.practice__area__card { background-color: #fffbf4;transition: all .3s ease-in-out;box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; }
+.practice__area__card .title a { color: var(--dark);transition: all .3s ease-in-out; }
+.practice__area__card:hover { background-color: var(--brand);transition: all .3s ease-in-out; }
+.practice__area__card .icon { transition: all .3s ease-in-out; }
+.practice__area__card:hover .icon { filter: contrast(0) brightness(10); }
+.practice__area__card .title a:hover { color: var(--white);text-decoration: underline; }

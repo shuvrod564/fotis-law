@@ -57,7 +57,7 @@
                             <div class="container"> 
                                 <h1 class="text-white h1 mx-auto">Best Lawyers in the Heart of the City</h1>
                                 <p class="h3 fw-normal text-center text-white pt-4 ">Building new reality by serving you with the highest possible level of care.</p>
-                                <a href="<?php echo $base_url; ?>contact-us/" class="btn btn-primary lead mt-3">Schedule a Meeting</a>
+                                <a href="<?php echo $base_url; ?>contact-us.php" class="btn btn-primary lead mt-3">Schedule a Meeting</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                                 <h2 class="h1 mx-auto text-center text-white">Navigating you through every turn. Everywhere.</h2>
                                 <p class="h3 fw-normal text-center pt-4  text-white">An international law firm with top-notch lawyers having proven
                                     records of cases.</p>
-                                <a href="<?php echo $base_url; ?>contact-us/" class="btn btn-primary lead mt-3">Schedule a Meeting</a>
+                                <a href="<?php echo $base_url; ?>contact-us.php" class="btn btn-primary lead mt-3">Schedule a Meeting</a>
                             </div>
                         </div>
                     </div>

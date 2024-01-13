@@ -96,10 +96,8 @@
                                     <div class="col-megamenu">
                                         <ul class="list-unstyled">
                                             <li><a href="<?php echo $base_url;?>aviation.php">Aviation</a></li>
-                                            <li><a href="<?php echo $base_url;?>construction-and-real-estate.php">Construction & Real Estate</a>
-                                            </li>
-                                            <li><a href="<?php echo $base_url;?>healthcare-and-life-sciences.php">Healthcare & Life Sciences</a>
-                                            </li>
+                                            <li><a href="<?php echo $base_url;?>construction-and-real-estate.php">Construction & Real Estate</a></li>
+                                            <li><a href="<?php echo $base_url;?>healthcare-and-life-sciences.php">Healthcare & Life Sciences</a></li>
                                             <li><a href="<?php echo $base_url;?>insurance-and-reinsurance.php">Insurance & Reinsurance</a></li>
                                             <li><a href="<?php echo $base_url;?>mining.php">Mining</a></li>
                                             <li><a href="<?php echo $base_url;?>shipping-and-martime.php">Shipping & Martime</a></li>
@@ -128,9 +126,9 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
-                            aria-expanded="false">Lawtify/<i class="sub-arrow"></i></a>
+                            aria-expanded="false">Lawtify<i class="sub-arrow"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                            <li class="brd-btm-gold"><a class="dropdown-item" href="<?php echo $base_url; ?>lawtify/blog.php">Blog</a>
+                            <li class="brd-btm-gold"><a class="dropdown-item" href="<?php echo $base_url; ?>blog/">Blog</a>
                             </li>
                             <li><a class="dropdown-item" href="<?php echo $base_url; ?>lawtify/videopodcast/">Video Podcast</a></li>
                         </ul>

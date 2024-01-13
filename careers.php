@@ -13,12 +13,7 @@
 
 </head>
  
- <body> 
- 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPRHP92"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+ <body>  
 
     <?php  include_once "includes/header.inc.php"; ?>
 
@@ -94,7 +89,7 @@
         <div class="row g-4 g-xxl-5">
             <div class="col-lg-6"> 
                 <h4 class="h2">Send Us a Message</h4>
-                <form class="form-bg mt-4" id="contact-form" method="post" action="<?php echo $base_url;?>submit-career-from.php"  enctype="multipart/form-data"> 
+                <form class="career-form mt-4" id="contact-form" method="post" action="<?php echo $base_url;?>submit-career-from.php"  enctype="multipart/form-data"> 
                     <div class="messages"></div> 
                     <div class="controls"> 
                         <div class="col-12 pb-2 pb-md-3 pb-lg-4 mb-1">
@@ -117,7 +112,7 @@
                         </div>
                         <div class="col-12 pb-2 pb-md-3 pb-lg-4 mb-1">
                             <div class="form-group">
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Write a Brief About Yourself" rows="4"></textarea>
+                                <textarea id="form_message" name="message" class="form-control h-auto" placeholder="Write a Brief About Yourself" rows="4"></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
@@ -135,36 +130,36 @@
                 </form>
             </div>
             <div class="col-lg-6">
-                <h4 class="h2">Contact Us</h4>
-                <div class="git-box d-flex mt-4">
-                    <div class="icon">
+            <h3 class="h2 fw-semibold">Contact Us</h3>
+                <div class="border mb-4 rounded p-3 p-sm-4 d-flex gap-3 mt-4">
+                    <div class="d-inline-flex justify-content-center align-items-center bg-primary text-white rounded-circle" style="width:3rem;height:3rem;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill centered" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                         </svg>
                     </div>
-                    <div class="caption">
+                    <div class="col">
                         <h5 class="mb-1">Call Us Today</h5>
                         <a href="tel:+971561298984" class="text-dark">+971 56 129 8984</a>  
                     </div>
                 </div>
-                <div class="git-box d-flex">
-                    <div class="icon">
+                <div class="border mb-4 rounded p-3 p-sm-4 d-flex gap-3">
+                    <div class="d-inline-flex justify-content-center align-items-center bg-primary text-white rounded-circle" style="width:3rem;height:3rem;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope centered" viewBox="0 0 16 16">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                         </svg>
                     </div>
-                    <div class="caption">
+                    <div class="col">
                         <h5 class="mb-1">Send Message</h5> 
                         <a href="mailto:corporate@fotislaw.com" class="text-dark">corporate@fotislaw.com</a>
                     </div>
                 </div>
-                <div class="git-box d-flex">
-                    <div class="icon">
+                <div class="border mb-4 rounded p-3 p-sm-4 d-flex gap-3">
+                    <div class="d-inline-flex justify-content-center align-items-center bg-primary text-white rounded-circle" style="width:3rem;height:3rem;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill centered" viewBox="0 0 16 16">
                         <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                         </svg>
                     </div>
-                    <div class="caption">
+                    <div class="col">
                         <h5 class="mb-1">Visit Us</h5>
                         <!--<strong>Fotis International Consultancy Limited</strong>, Office 305, Park Towers (Tower B),-->
                         <!--Dubai, United Arab Emirates<br /> <b>Fotis International Law Firm</b> Creative Tower, PO Box: 4422-->
