@@ -241,3 +241,12 @@ ul li { list-style-type: none; }
 @media (max-width:575px) {
     .container { max-width: calc(100% - 20px); }
 }
+
+.search__box { height: 0px;overflow: hidden;transition: all .35s ease-in-out;top: -110px; }
+.search__box.active { top: 0px;height: 110px; }
+.search__box .form-control { height: 110px;font-size: 1.5rem;transition: all .45s ease-in-out; }
+.search__box .form-control::placeholder { color: #aaa; }
+.search__box .form-control:focus { background-color: #fcf8f2; }
+.search__box .btn-primary { font-size: 1.75rem;background-color: #f8f0e1;border-color: #f8f0e1;color: var(--brand) !important; }
+.search__box .btn-primary:focus,.search__box .btn-primary:hover,.search__box .btn-primary:active { background-color: var(--brand);border-color: var(--brand);color: var(--white) !important; }
+.searchBtn.active { transform: rotate(100deg); }

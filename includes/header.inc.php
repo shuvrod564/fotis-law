@@ -1,5 +1,18 @@
  
      
+    <form action="#" id="mainSearchBar" class="position-relative bg-white search__box">
+        <div class="d-flex"> 
+            <input type="text" name="search" placeholder="Search..." class="form-control rpunded-lg rounded-0 border-0 text-uppercase ps-sm-5 col" required>
+            <button
+                class="btn btn-primary rounded-0 text-uppercase px-sm-5"
+                type="submit" 
+            >
+                Search
+            </button>
+        </div>
+    </form>
+
+
     <nav class="header-sep py-2" style="z-index: 999;">
         <div class="container d-flex flex-wrap align-items-center">
             <ul class="nav numbers me-auto">
@@ -16,9 +29,9 @@
             </ul>
             
             <button
-                class="btn p-0 position-relative"
+                class="btn p-0 position-relative searchBtn border-0"
                 type="button" style="z-index:999;"
-                data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"
+                onclick="toggleSearchBar()"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512"><path fill="<?php echo $color;?>" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
             </button> 
@@ -37,9 +50,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">About Us <i class="sub-arrow"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li class="brd-btm-gold"><a class="dropdown-item" href="<?php echo $base_url;?>the-firm.php">The Firm</a></li>
-                            <li class="brd-btm-gold"><a class="dropdown-item" href="the-team.php">The Team</a></li>
-                            <li><a class="dropdown-item" href="location.php">Locations</a></li>
+                            <!--  class="brd-btm-gold" -->
+                            <li><a class="dropdown-item" href="<?php echo $base_url;?>the-firm.php">The Firm</a></li> 
+                            <li><a class="dropdown-item" href="<?php echo $base_url;?>the-team.php">The Team</a></li> 
+                            <li><a class="dropdown-item" href="<?php echo $base_url;?>location.php">Locations</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown has-megamenu">
@@ -50,15 +64,15 @@
                                 <div class="col-md-6">
                                     <div class="col-megamenu">
                                         <ul class="list-unstyled">
-                                            <li><a href="<?php echo $base_url;?>administrative-law.php">Administrative Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>finance-law.php">Banking & Finance Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>capital-markets.php">Capital Markets Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>commercial-law.php">Commercial Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>criminal-law.php">Criminal Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>debt-recovery.php">Debt Collection</a></li>
-                                            <li><a href="<?php echo $base_url;?>family-lawyer.php">Family & Divorce Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>intellectual-property.php">Intellectual Property</a></li>
-                                            <li><a href="<?php echo $base_url;?>employment-and-immigration-law.php">Employment & Immigration Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>administrative-law.php">Administrative Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>finance-law.php">Banking & Finance Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>capital-markets.php">Capital Markets Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>commercial-law.php">Commercial Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>criminal-law.php">Criminal Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>debt-recovery.php">Debt Collection</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>family-lawyer.php">Family & Divorce Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>intellectual-property.php">Intellectual Property</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>employment-and-immigration-law.php">Employment & Immigration Law</a></li>
                                         </ul>
                                     </div>
                                     <!-- col-megamenu.// -->
@@ -66,15 +80,15 @@
                                 <div class="col-md-6">
                                     <div class="col-megamenu">
                                         <ul class="list-unstyled">
-                                            <li><a href="<?php echo $base_url;?>arbitration-law-firm-dubai.php">Arbitration Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>bankruptcy-law.php">Bankruptcy Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>corporate-law.php">Corporate Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>construction-law.php">Construction Law</a></li>
-                                            <li><a href="<?php echo $base_url;?>cyber-risk.php">Cyber Risk</a></li>
-                                            <li><a href="<?php echo $base_url;?>dispute-resolution.php">Dispute Resolution</a></li>
-                                            <li><a href="<?php echo $base_url;?>franchising.php">Franchising</a></li>
-                                            <li><a href="<?php echo $base_url;?>taxation.php">Taxation</a></li>
-                                            <li><a href="<?php echo $base_url;?>regulatory-compliance/">Regulatory Compliance</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>arbitration-law-firm-dubai.php">Arbitration Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>bankruptcy-law.php">Bankruptcy Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>corporate-law.php">Corporate Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>construction-law.php">Construction Law</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>cyber-risk.php">Cyber Risk</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>dispute-resolution.php">Dispute Resolution</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>franchising.php">Franchising</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>taxation.php">Taxation</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>regulatory-compliance/">Regulatory Compliance</a></li>
     
                                         </ul>
                                     </div>
@@ -95,12 +109,12 @@
                                 <div class="col-md-6">
                                     <div class="col-megamenu">
                                         <ul class="list-unstyled">
-                                            <li><a href="<?php echo $base_url;?>aviation.php">Aviation</a></li>
-                                            <li><a href="<?php echo $base_url;?>construction-and-real-estate.php">Construction & Real Estate</a></li>
-                                            <li><a href="<?php echo $base_url;?>healthcare-and-life-sciences.php">Healthcare & Life Sciences</a></li>
-                                            <li><a href="<?php echo $base_url;?>insurance-and-reinsurance.php">Insurance & Reinsurance</a></li>
-                                            <li><a href="<?php echo $base_url;?>mining.php">Mining</a></li>
-                                            <li><a href="<?php echo $base_url;?>shipping-and-martime.php">Shipping & Martime</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>aviation.php">Aviation</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>construction-and-real-estate.php">Construction & Real Estate</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>healthcare-and-life-sciences.php">Healthcare & Life Sciences</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>insurance-and-reinsurance.php">Insurance & Reinsurance</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>mining.php">Mining</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>shipping-and-martime.php">Shipping & Martime</a></li>
                                         </ul>
                                     </div>
                                     <!-- col-megamenu.// -->
@@ -108,12 +122,12 @@
                                 <div class="col-md-6">
                                     <div class="col-megamenu">
                                         <ul class="list-unstyled">
-                                            <li><a href="<?php echo $base_url;?>banking-and-financial-services.php">Banking & Finance</a></li>
-                                            <li><a href="<?php echo $base_url;?>energy-and-resources.php">Energy & Resources</a></li>
-                                            <li><a href="<?php echo $base_url;?>hospitality-leisure.php">Hospitality & Leisure</a></li>
-                                            <li><a href="<?php echo $base_url;?>knowledge-and-education.php">Knowledge & Education</a></li>
-                                            <li><a href="<?php echo $base_url;?>fmcg-retail.php">Retail & FMCG</a></li>
-                                            <li><a href="<?php echo $base_url;?>technology-media-telecommunications.php">Technology, Media & Telecommunications</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>banking-and-financial-services.php">Banking & Finance</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>energy-and-resources.php">Energy & Resources</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>hospitality-leisure.php">Hospitality & Leisure</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>knowledge-and-education.php">Knowledge & Education</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>fmcg-retail.php">Retail & FMCG</a></li>
+                                            <li><a class="dropdown-item" href="<?php echo $base_url;?>technology-media-telecommunications.php">Technology, Media & Telecommunications</a></li>
                                         </ul>
                                     </div>
                                     <!-- col-megamenu.// -->
@@ -128,8 +142,7 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
                             aria-expanded="false">Lawtify<i class="sub-arrow"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                            <li class="brd-btm-gold"><a class="dropdown-item" href="<?php echo $base_url; ?>blog/">Blog</a>
-                            </li>
+                            <li><a class="dropdown-item" href="<?php echo $base_url; ?>blog/">Blog</a></li>
                             <li><a class="dropdown-item" href="<?php echo $base_url; ?>lawtify/videopodcast/">Video Podcast</a></li>
                         </ul>
                     </li>
@@ -148,22 +161,11 @@
     </nav>
 
  
-    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-            <p class="offcanvas-title mb-0" id="offcanvasExampleLabel">&nbsp;</p>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <div class="container"> 
-                <form action="#" class="position-relative">
-                    <input type="text" name="search" placeholder="Search..." class="form-control form-control-lg" required>
-                    <button
-                        class="btn p-0 position-absolute top-50 translate-middle-y"
-                        type="submit" style="right:1.5rem"
-                    >
-                        <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-                    </button>
-                </form>
-            </div>
-        </div>
-    </div>
+    <script>
+        function toggleSearchBar(){
+            let search = document.querySelector("#mainSearchBar");
+            let searchBtn = document.querySelector(".searchBtn");
+            search.classList.toggle('active')
+            searchBtn.classList.toggle('active')
+        }
+    </script>

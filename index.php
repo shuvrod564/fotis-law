@@ -271,7 +271,7 @@
                     <a href="abdelrahman-elhadi.php" class="team-img"><img src="<?php echo $base_url;?>assets/images/team/Abdelrahman-Elhadi.webp" width="401" height="534" class="img-fluid" alt="Abdelrahman Elhadi" /></a>
                     <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
                         <div> 
-                            <h3 class="h3 mb-1 fw-semibold"><a href="abdelrahman-elhadi.php">Abdelrahman Elhadi</a></h3>
+                            <h3 class="h4 mb-1 fw-semibold"><a href="abdelrahman-elhadi.php">Abdelrahman Elhadi</a></h3>
                             <p class="small text-white text-uppercase mt-2 d-block lh-1">Senior Legal Advisor</p>
                         </div>
                         <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
@@ -280,7 +280,7 @@
                     </div>
                 </div>
                 <div class="member__card"> 
-                    <a href="neil-drahmoune.php" class="team-img"><img src="<?php echo $base_url;?>assets/images/team/Neïl-Drahmoune.webp" width="401" height="534" class="img-fluid" alt="Neïl Drahmoune" ></a>
+                    <a href="neil-drahmoune.php" class="team-img"><img src="<?php echo $base_url;?>assets/images/team/Neil-Drahmoune.webp" width="401" height="534" class="img-fluid" alt="Neïl Drahmoune" ></a>
                     <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
                         <div> 
                             <h3 class="h3 mb-1 fw-semibold"><a href="neil-drahmoune.php">Neïl Drahmoune</a></h3>
@@ -467,38 +467,39 @@
         <div class="container-fluid position-relative px-0" style="z-index: 99;">
             <div class="row g-0 article__row">
                 <div class="col-lg-6 col-xl-6">
-                    <div class="article__card p-4 p-md-5 d-flex align-items-end"> 
+                    <div class="article__card no-hover p-4 p-md-5 d-flex align-items-end"> 
                         <div class="w-100"> 
-                            <h2 class="title fw-bold"><a href="#">Trending Lawtify Articles</a></h2>
-                            <p class="desc mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <a href="#" class="link fw-semibold text-dark">Know more</a>
+                            <h2 class="title fw-bold text-white">Trending Lawtify Articles</h2> 
                         </div>
                     </div>
                 </div> 
                 <div class="col-lg-6 col-xl-6" id="articale2">
-                    <div class="article__card p-4 p-md-5 d-flex align-items-end"> 
+                    <div class="article__card hover p-4 p-md-5 d-flex align-items-end"> 
                         <div class="w-100"> 
-                            <h2 class="title fw-bold"><a href="#">COP Cast Series</a></h2>
-                            <p class="desc mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <a href="#" class="link fw-semibold text-dark">Know more</a>
+                            <h2 class="title fw-bold"><a href="blog/blog-detail.php">Jurisdiction Of UAE Courts And Applicability of An Individual’s Personal Law</a></h2>
+                            <p class="desc mb-0 ellipses-3">The United Arab Emirates (UAE) is a nation known for its diverse culture, booming economy, and a legal system that uniquely
+                                    blends civil law principles with Islamic Sharia law. Understanding the jurisdiction of UAE courts and the applicability of an
+                                    individual’s personal law within this framework is crucial, especially for expatriates residing in the country. The UAE has a
+                                    federal legal system, but each of the seven emirates that make up the UAE (Abu Dhabi, Dubai, Sharjah, Ras Al Khaimah,</p>
+                            <a href="blog/blog-detail.php" class="link fw-semibold text-dark">Know more</a>
                         </div>
                     </div>
                 </div> 
                 <div class="col-lg-6 col-xl-6" id="articale3">
-                    <div class="article__card p-4 p-md-5 d-flex align-items-end"> 
+                    <div class="article__card hover p-4 p-md-5 d-flex align-items-end"> 
                         <div class="w-100"> 
-                            <h2 class="title fw-bold"><a href="#">COP Cast Series</a></h2>
-                            <p class="desc mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <a href="#" class="link fw-semibold text-dark">Know more</a>
+                            <h2 class="title fw-bold"><a href="blog/blog-detail.php">Green growth and responsible business: Exploring UAE’s environmental, social and governance (ESG) landscape</a></h2>
+                            <p class="desc mb-0 ellipses-3">The United Arab Emirates (UAE), with its stunning skyscrapers, luxurious lifestyle, and booming business environment, has emerged as a global economic hub in recent decades. A significant driver of this transformation has been the liberalization of foreign direct investment (FDI) laws. These laws have played a pivotal role in attracting international businesses and investors to the UAE,</p>
+                            <a href="blog/blog-detail.php" class="link fw-semibold text-dark">Know more</a>
                         </div>
                     </div>
                 </div> 
                 <div class="col-lg-6 col-xl-6" id="articale4">
-                    <div class="article__card p-4 p-md-5 d-flex align-items-end"> 
+                    <div class="article__card hover p-4 p-md-5 d-flex align-items-end"> 
                         <div class="w-100"> 
-                            <h2 class="title fw-bold"><a href="#">COP Cast Series</a></h2>
-                            <p class="desc mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <a href="#" class="link fw-semibold text-dark">Know more</a>
+                            <h2 class="title fw-bold"><a href="blog/blog-detail.php">Foreign Direct Investment Laws and Their Impact on Economic Growth in the UAE Introduction</a></h2>
+                            <p class="desc mb-0 ellipses-3"> The United Arab Emirates (UAE), with its stunning skyscrapers, luxurious lifestyle, and booming business environment, has emerged as a global economic hub in recent decades. A significant driver of this transformation has been the liberalization of foreign direct investment (FDI) laws. These laws have played a pivotal role in attracting international businesses and investors to the UAE, contributing to its impressive economic growth.</p>
+                            <a href="blog/blog-detail.php" class="link fw-semibold text-dark">Know more</a>
                         </div>
                     </div>
                 </div> 
@@ -511,19 +512,19 @@
         var articale3 = document.getElementById("articale3");
         var articale4 = document.getElementById("articale4");
         articale2.addEventListener('mouseover', function(){
-            image.setAttribute('src', 'assets/images/home/articale-bg-2.webp');
+            image.setAttribute('src', 'https://fotislaw.com/lawtify/wp-content/uploads/2023/10/Jurisdiction-Of-UAE-Courts-And-Applicability-of-An-Individuals-Personal-Law-scaled.jpg');
         });
         articale2.addEventListener('mouseout', function(){
             image.setAttribute('src', 'assets/images/home/articales-bg.webp');
         });
         articale3.addEventListener('mouseover', function(){
-            image.setAttribute('src', 'assets/images/home/articales-bg-3.webp');
+            image.setAttribute('src', 'https://fotislaw.com/lawtify/wp-content/uploads/2023/10/Green-growth-and-responsible-business-Exploring-UAEs-environmental-social-and-governance-ESG-landscape-scaled.jpg');
         });
         articale3.addEventListener('mouseout', function(){
             image.setAttribute('src', 'assets/images/home/articales-bg.webp');
         });
         articale4.addEventListener('mouseover', function(){
-            image.setAttribute('src', 'assets/images/home/articales-bg-4.webp');
+            image.setAttribute('src', 'https://fotislaw.com/lawtify/wp-content/uploads/2023/10/Foreign-Direct-Investment-Laws-and-Their-Impact-on-Economic-Growth-in-the-UAE-Introduction-scaled.jpg');
         });
         articale4.addEventListener('mouseout', function(){
             image.setAttribute('src', 'assets/images/home/articales-bg.webp');

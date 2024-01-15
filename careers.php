@@ -26,7 +26,7 @@
     <!-- Header Wraper End -->
 
 
-    <section class="pb-5 text-center text-lg-start">
+    <section class="pb-5">
         <div class="container"> 
             <div class="row g-4 g-lg-5">
                 <div class="col-md-5">
@@ -41,40 +41,40 @@
                     </p> 
                 </div> 
             </div><!--.//row-->
-            <div class="row gx-4gy-2 gx-lg-5 align-items-center justify-content-between brd-top-gold py-4">
-                <div class="col-lg-9">
+            <div class="d-lg-flex align-items-center justify-content-between brd-top-gold py-4">
+                <div class="col">
                     <h3 class="fs-4 h2color fw-bold">Legal Associate (Corporate Law)</h3>
-                    <span class="lead">We are inviting candidates with atleast three plus years’ experience to join our Corporate Law Practice</span>
+                    <span class="lead-sm fw-medium">We are inviting candidates with atleast three plus years’ experience to join our Corporate Law Practice</span>
                     <p>
                         Responsibilities include conducting legal research, drafting and reviewing contracts, and ensuring compliance with regulatory requirements. 
                     </p>
                 </div>
-                <div class="col-lg-3 text-center text-lg-end">
+                <div class="career__btn__box">
                     <a class="btn btn-primary" href="#apply">APPLY NOW</a>
                 </div>  
             </div><!--.//row-->
-            <div class="row gx-4gy-2 gx-lg-5 align-items-center justify-content-between brd-top-gold py-4">
-                <div class="col-lg-9">
+            <div class="d-lg-flex align-items-center justify-content-between brd-top-gold py-4">
+                <div class="col">
                     <h3 class="fs-4 h2color fw-bold">Senior Associate (Litigation)</h3>
-                    <span class="lead">The position is for our Abu Dhabi office</span>
+                    <span class="lead-sm fw-medium">The position is for our Abu Dhabi office</span>
                     <p>
                         We are looking for experienced senior associates or senior legal consultants with ten plus years’ experience in
                         Abu Dhabi.
                     </p>
                 </div>
-                <div class="col-lg-3 text-center text-lg-end">
+                <div class="career__btn__box">
                     <a class="btn btn-primary" href="#apply">APPLY NOW</a>
                 </div>  
             </div><!--.//row-->
-            <div class="row gx-4gy-2 gx-lg-5 align-items-center justify-content-between brd-top-gold py-4">
-                <div class="col-lg-9">
+            <div class="d-lg-flex align-items-center justify-content-between brd-top-gold py-4">
+                <div class="col">
                     <h3 class="fs-4 h2color fw-bold">Client Coordinator</h3>
-                    <span class="lead">This position is for our Dubai office.</span>
+                    <span class="lead-sm fw-medium">This position is for our Dubai office.</span>
                     <p>
                         Fotis International invites secretarial candidates to apply for this position.
                     </p>
                 </div>
-                <div class="col-lg-3 text-center text-lg-end">
+                <div class="career__btn__box">
                     <a class="btn btn-primary" href="#apply">APPLY NOW</a>
                 </div>  
             </div><!--.//row-->

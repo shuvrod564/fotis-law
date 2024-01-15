@@ -61,290 +61,290 @@
     <!-- About us end -->
 
     <!-- Member Wrapper Start -->
-    <section class="py-5 mb-5 teamCarousel">
+    <section class="py-5 mb-5 team__page">
         <div class="container">  
             <h2 class="h2 text-center">Our Experts in UAE</h2>
             
-            <div class="row g-4 mt-2 mt-lg-2 justify-content-center"> 
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+            <div class="row g-3 gy-4 mt-2 mt-lg-2 justify-content-center"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="george.php" class="team-img"><img src="assets/images/team/George-SK.webp" width="414" height="552" class="img-fluid" alt="George S K" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="george.php">George S K</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Partner</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="george.php">George S K</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Partner</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div> 
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="adam-husband.php" class="team-img"><img src="assets/images/team/Adam-Husband.webp" width="414" height="552" class="img-fluid" alt="Adam_Husband" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="adam-husband.php">Adam Husband</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Director (Consultancy)</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="adam-husband.php">Adam Husband</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Director (Consultancy)</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="kuruvila.php" class="team-img"><img src="assets/images/team/S-Kuruvila.webp" class="img-fluid" alt="George S K" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="kuruvila.php">S Kuruvila</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Chief Operations Officer</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="kuruvila.php">S Kuruvila</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Chief Operations Officer</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="abdelrahman-elhadi.php" class="team-img"><img src="assets/images/team/Abdelrahman-Elhadi.webp" width="414" height="552" class="img-fluid" alt="Abdelrahman Elhadi" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="abdelrahman-elhadi.php">Abdelrahman Elhadi</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Senior Legal Advisor</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="abdelrahman-elhadi.php">Abdelrahman Elhadi</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Senior Legal Advisor</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="mohammad-nour-ali.php" class="team-img"><img src="assets/images/team/Mohammad-Nour-Ali.webp?v=1" width="414" height="552" class="img-fluid" alt="Mohammad Nour Ali AlZubi" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="mohammad-nour-ali.php">Mohammad Nour Ali AlZubi</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Senior Associate (Litigation)</p>
+                                <h3 class="fs-6 mb-1 name text-uppercase"><a href="mohammad-nour-ali.php">Mohammad Nour Ali AlZubi</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Senior Associate (Litigation)</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
-                        <a href="neil-drahmoune.php" class="team-img"><img src="assets/images/team/Neïl-Drahmoune.webp" width="414" height="552" class="img-fluid" alt="Neïl Drahmoune" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <a href="neil-drahmoune.php" class="team-img"><img src="assets/images/team/Neil-Drahmoune.webp" width="414" height="552" class="img-fluid" alt="Neïl Drahmoune" /></a>
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="neil-drahmoune.php">Neïl Drahmoune</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="neil-drahmoune.php">Neïl Drahmoune</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="asna-patel.php" class="team-img"><img src="assets/images/team/Asna-Patel.webp" width="414" height="552" class="img-fluid" alt="Asna Patel" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="asna-patel.php">Asna Patel</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="asna-patel.php">Asna Patel</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="tanzeela-rauf.php" class="team-img"><img src="assets/images/team/Tanzeela-Rauf.webp" width="414" height="552" class="img-fluid" alt="Tanzeela Rauf" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="tanzeela-rauf.php">Tanzeela Rauf</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="tanzeela-rauf.php">Tanzeela Rauf</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="mohaseb-noushad.php" class="team-img"><img src="assets/images/team/Mohaseb-Noushad.webp" width="414" height="552" class="img-fluid" alt="Mohaseb Noushad" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="mohaseb-noushad.php">Mohaseb Noushad</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="mohaseb-noushad.php">Mohaseb Noushad</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="amina-khan.php" class="team-img"><img src="assets/images/team/Amina-Khan.webp" class="img-fluid" alt="Amina Khan" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="amina-khan.php">Amina Khan</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Junior Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="amina-khan.php">Amina Khan</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Junior Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div> 
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="eshaan-bora.php" class="team-img"><img src="assets/images/team/Eshaan-Bora.webp" width="414" height="552" class="img-fluid" alt="Eshaan Bora" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="eshaan-bora.php">Eshaan Bora</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Junior Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="eshaan-bora.php">Eshaan Bora</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Junior Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="abilin-godfrey.php" class="team-img"><img src="assets/images/team/Abilin-Godfrey.webp" width="414" height="552" class="img-fluid" alt="Abilin Godfrey" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="abilin-godfrey.php">Abilin Godfrey</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Junior Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="abilin-godfrey.php">Abilin Godfrey</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Junior Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="priyanka-sharma.php" class="team-img"><img src="assets/images/team/Pryanka-Sharma.webp" class="img-fluid" alt="Priyanka Sharma" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="priyanka-sharma.php">Priyanka Sharma</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">General Practitioner</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="priyanka-sharma.php">Priyanka Sharma</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">General Practitioner</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column"> 
                     <div class="member__card"> 
                         <a href="hannah-george.php" class="team-img"><img src="assets/images/team/Hannah-George.webp" width="414" height="552" class="img-fluid" alt="Priyanka Sharma" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="hannah-george.php">Hannah George</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Junior Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="hannah-george.php">Hannah George</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Junior Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column"> 
                     <div class="member__card"> 
                         <a href="jinsha-mohan.php" class="team-img"><img src="assets/images/team/Jinsha-Mohan.webp" width="414" height="552" class="img-fluid" alt="Priyanka Sharma" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="jinsha-mohan.php">Jinsha Mohan</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Junior Associate</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="jinsha-mohan.php">Jinsha Mohan</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Junior Associate</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column"> 
                     <div class="member__card"> 
                         <a href="amany-gaber.php" class="team-img"><img src="assets/images/team/Amany-Gaber.webp" width="414" height="552" class="img-fluid" alt="Priyanka Sharma" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="amany-gaber.php">Amany Gaber</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Legal Assistant (Litigation)</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="amany-gaber.php">Amany Gaber</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Legal Assistant (Litigation)</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="ameria-sumagka.php" class="team-img"><img src="assets/images/team/Ameira-Sumagka.webp" width="414" height="552" class="img-fluid" alt="Ameira Sumagka" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="ameria-sumagka.php">Ameira Sumagka</a></h3>
-                                <p class="fs14 gold-text d-block lh-1">Administrator</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="ameria-sumagka.php">Ameira Sumagka</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Administrator</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div> 
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="navash.php" class="team-img"><img src="assets/images/team/Navas-K.webp" width="414" height="552" class="img-fluid" alt="Navas K" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="navash.php">Navas K</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Finance Department</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="navash.php">Navas K</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Finance Department</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div> 
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="shahul-hameed.php" class="team-img"><img src="assets/images/team/Shahul-Hameed.webp" width="414" height="552" class="img-fluid" alt="Shahul Hameed" /></a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="shahul-hameed.php">Shahul Hameed</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Finance Department</p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="shahul-hameed.php">Shahul Hameed</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Finance Department</p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div> 
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-column">
+                <div class="col-xl-3 col-lg-4 col-md-6 d-flex flex-column">
                     <div class="member__card"> 
                         <a href="jennifer-impas.php" class="team-img">
                             <img src="assets/images/team/Jennifer-Impas.webp" width="414" height="552" class="img-fluid" alt="Jennifer Impas" />
                         </a>
-                        <div class="caption px-4 pt-3 pb-2 d-flex align-items-center justify-content-between">
+                        <div class="caption px-3 pt-3 pb-2 d-flex_ text-center align-items-center justify-content-between">
                             <div> 
-                                <h3 class="h3 mb-1"><a href="jennifer-impas.php">Jennifer Impas</a></h3>
-                                <p class="small text-white text-uppercase mt-2 d-block lh-1">Administrative Assistant </p>
+                                <h3 class="fs-5 mb-1 name text-uppercase"><a href="jennifer-impas.php">Jennifer Impas</a></h3>
+                                <p class="small text-white text-uppercase mt-2 d-block lh-1 text-center">Administrative Assistant </p>
                             </div>
-                            <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
+                            <!-- <a class="social-email" href="mailto:corporate@fotislaw.com" target="_blank">
                                 <img src="assets/images/home/email-outline-white.svg" width="32" height="32" alt="email-icon">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div> 
