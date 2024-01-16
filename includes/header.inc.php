@@ -16,13 +16,13 @@
     <nav class="header-sep py-2" style="z-index: 999;">
         <div class="container d-flex flex-wrap align-items-center">
             <ul class="nav numbers me-auto">
-                <li class="nav-item d-inline-flex flex-wrap gap-1 gap-x-md-5">
+                <li class="nav-item d-inline-flex flex-wrap gap-1 gap-sm-4">
                     <a href="tel:+971561298984" class="nav-link p-0 d-inline-flex align-items-center gap-2 fw-medium"> 
-                        <b class="pe-1 text-colored">Hotline</b>
+                        <b class="pe-1 text-colored text-capitalize">Hotline</b>
                         +971 56 129 8984
                     </a>
                     <a href="tel:+97127119810" class="nav-link p-0 d-inline-flex align-items-center gap-2 fw-medium"> 
-                        <b class="pe-1 text-colored">Abu Dhabi</b>
+                        <b class="pe-1 text-colored text-capitalize">Abu Dhabi</b>
                         +971 2 711 9810
                     </a>
                 </li>

@@ -250,3 +250,10 @@ ul li { list-style-type: none; }
 .search__box .btn-primary { font-size: 1.75rem;background-color: #f8f0e1;border-color: #f8f0e1;color: var(--brand) !important; }
 .search__box .btn-primary:focus,.search__box .btn-primary:hover,.search__box .btn-primary:active { background-color: var(--brand);border-color: var(--brand);color: var(--white) !important; }
 .searchBtn.active { transform: rotate(100deg); }
+
+@media (max-width:575px) {
+    .search__box { top: -60px; }
+    .search__box.active { height: 60px; }
+    .search__box .form-control { height: 60px;font-size: 1.125rem; }
+    .search__box .btn-primary { height: 60px;font-size: 1.125rem; }
+}

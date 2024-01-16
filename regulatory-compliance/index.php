@@ -60,7 +60,7 @@
     <section class="container-fluid px-0 new__service">
         <div class="row g-0">
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/AML-CFT-Business-Risk-Assessment-Services.webp?v=1" width="476" height="655" class="img-fluid w-100 h-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start text-start">
@@ -70,7 +70,7 @@
                 </div>
             </div><!--.//col-->
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/AML-CFT-Risk-Assessment-Mastery.webp?v=2" width="476" height="655" class="img-fluid w-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start">
@@ -80,7 +80,7 @@
                 </div>
             </div><!--.//col-->
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/Compliance-with-KYC-and-CDD-Mastery.webp?v=2" width="476" height="655" class="img-fluid w-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start">
@@ -90,7 +90,7 @@
                 </div>
             </div><!--.//col-->
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/Crafting-Robust-AML-CFT-Policy-and-Procedures.webp?v=2" width="476" height="655" class="img-fluid w-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start">
@@ -100,7 +100,7 @@
                 </div>
             </div><!--.//col-->
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/Distinguished-AML-and-CFT-Health-Checks.webp?v=2" width="476" height="655" class="img-fluid w-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start">
@@ -110,7 +110,7 @@
                 </div>
             </div><!--.//col-->
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/Distinguished-AML-and-CFT-Health-Checks-2.webp?v=2" width="476" height="655" class="img-fluid w-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start">
@@ -120,7 +120,7 @@
                 </div>
             </div><!--.//col-->
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/Precision-in-AML-Reporting.webp?v=2" width="476" height="655" class="img-fluid w-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start">
@@ -130,7 +130,7 @@
                 </div>
             </div><!--.//col-->
             <div class="col-lg-3 col-sm-6">
-                <div class="practice__area position-relative overflow-hidden">
+                <div class="practice__area no_hover position-relative overflow-hidden">
                     <img src="assets/images/services/Specialized-Training-Solutions.webp?v=2" width="476" height="655" class="img-fluid w-100" alt="Lawyers">
                     <div class="p-4 title_box position-absolute bottom-0 start-0 w-100"> 
                         <h3 class="h3 fw-semibold text-white text-start">
