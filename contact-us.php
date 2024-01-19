@@ -35,34 +35,42 @@
         <div class="container"> 
             <div class="row g-3">
                 <div class="col-lg-4 d-flex">
-                    <a href="<?php echo $base_url;?>dubai.php" class="p-3 p-lg-4 contact__box w-100" style="background-color:#141c2c">
-                        <div class="git-box-c d-flex">
-                            <div class="caption float-none">
-                                <h2 class="mb-1 text-primary h2">Dubai</h2>
-                                <p class="text-white mb-0"><strong class="d-block">Fotis International Consultancy Limited</strong>, Office 305, Park Towers (Tower B), Dubai, United Arab Emirates</p> 
-                            </div>
-                        </div>
-                    </a>
+                    <div class="p-3 p-lg-4 contact__box w-100" style="background-color:#141c2c">
+                        <h2 class="mb-3 text-primary h2">
+                            <a  href="<?php echo $base_url;?>dubai.php" class="text-primary">Dubai</a> 
+                        </h2>
+                        <p class="text-white mb-3"><strong class="d-block">Fotis International Consultancy Limited,</strong> Office 305, Park Towers (Tower B), Dubai, United Arab Emirates</p> 
+                        <a href="tel:+97143544660" class="text-white fw-medium lead d-inline-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 512 512"><path fill="#fff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                            <span>+971 4 354 4660</span>
+                        </a> 
+                    </div>
                 </div>
                 <div class="col-lg-4 d-flex">
-                    <a href="<?php echo $base_url;?>abu-dhabi.php" class="p-3 p-lg-4 contact__box w-100 bg-primary">
-                        <div class="git-box-c d-flex">
-                            <div class="caption float-none">
-                                <h2 class="mb-1 text-dark h2">Abu Dhabi</h2>
-                                <p class="text-dark mb-0"><strong class="d-block">Fotis International Law Firm Limited,</strong> C14, 15, Al Sarab Tower, ADGM Square, Al Maryah Island, Abu Dhabi, United Arab Emirates</p> 
-                            </div>
-                        </div>
-                    </a>
+                    <div class="p-3 p-lg-4 contact__box w-100 bg-primary">
+                        <div class="">
+                            <h2 class="mb-3 text-dark h2">
+                                <a  href="<?php echo $base_url;?>abu-dhabi.php" class="text-dark">Abu Dhabi</a> 
+                            </h2>
+                            <p class="text-dark mb-3"><strong class="d-block">Fotis International Law Firm Limited,</strong> C14, 15, Al Sarab Tower, ADGM Square, Al Maryah Island, Abu Dhabi, United Arab Emirates</p> 
+                            <a href="tel:+97127119810" class="text-dark fw-medium lead d-inline-flex align-items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 512 512"><path fill="#000" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                                <span>+971 2 711 9810</span>
+                            </a>
+                        </div> 
+                    </div>
                 </div>
                 <div class="col-lg-4 d-flex">
-                    <a href="<?php echo $base_url;?>fujairah.php" class="p-3 p-lg-4 contact__box w-100" style="background-color:#141c2c">
-                        <div class="git-box-c d-flex">
-                            <div class="caption float-none">
-                                <h2 class="mb-1 text-primary h2">Fujairah</h2>
-                                <p class="text-white mb-0"><strong class="d-block">Fotis International Law Firm,</strong>Creative Tower, PO Box: 4422 Fujairah, Fujairah United Arab Emirates</p> 
-                            </div>
-                        </div>
-                    </a>
+                    <div class="p-3 p-lg-4 contact__box w-100" style="background-color:#141c2c"> 
+                        <h2 class="mb-3 text-primary h2">
+                            <a  href="<?php echo $base_url;?>fujairah.php" class="text-primary">Fujairah</a> 
+                        </h2>
+                        <p class="text-white mb-3"><strong class="d-block">Fotis International Law Firm,</strong>Creative Tower, PO Box: 4422 Fujairah, Fujairah United Arab Emirates</p> 
+                        <a href="tel:+971561298984" class="text-white fw-medium lead d-inline-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 512 512"><path fill="#fff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                            <span>+971 56 129 8984</span>
+                        </a>
+                    </div>
                 </div>
             </div>
 

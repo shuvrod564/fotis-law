@@ -511,20 +511,20 @@
         var articale2 = document.getElementById("articale2");
         var articale3 = document.getElementById("articale3");
         var articale4 = document.getElementById("articale4");
-        articale2.addEventListener('mouseover', function(){
-            image.setAttribute('src', 'https://fotislaw.com/lawtify/wp-content/uploads/2023/10/Jurisdiction-Of-UAE-Courts-And-Applicability-of-An-Individuals-Personal-Law-scaled.jpg');
+        articale2.addEventListener('mouseover', function(){ 
+            image.setAttribute('src', 'assets/images/home/articale-bg-2.webp');
         });
         articale2.addEventListener('mouseout', function(){
             image.setAttribute('src', 'assets/images/home/articales-bg.webp');
         });
         articale3.addEventListener('mouseover', function(){
-            image.setAttribute('src', 'https://fotislaw.com/lawtify/wp-content/uploads/2023/10/Green-growth-and-responsible-business-Exploring-UAEs-environmental-social-and-governance-ESG-landscape-scaled.jpg');
+            image.setAttribute('src', 'assets/images/home/articales-bg-3.webp');
         });
         articale3.addEventListener('mouseout', function(){
             image.setAttribute('src', 'assets/images/home/articales-bg.webp');
         });
         articale4.addEventListener('mouseover', function(){
-            image.setAttribute('src', 'https://fotislaw.com/lawtify/wp-content/uploads/2023/10/Foreign-Direct-Investment-Laws-and-Their-Impact-on-Economic-Growth-in-the-UAE-Introduction-scaled.jpg');
+            image.setAttribute('src', 'assets/images/home/articales-bg-4.webp');
         });
         articale4.addEventListener('mouseout', function(){
             image.setAttribute('src', 'assets/images/home/articales-bg.webp');

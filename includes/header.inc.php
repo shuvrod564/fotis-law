@@ -2,7 +2,7 @@
      
     <form action="#" id="mainSearchBar" class="position-relative bg-white search__box">
         <div class="d-flex"> 
-            <input type="text" name="search" placeholder="Search..." class="form-control rpunded-lg rounded-0 border-0 text-uppercase ps-sm-5 col" required>
+            <input type="text" name="search" placeholder="Search..." class="form-control rpunded-lg rounded-0 border-0 ps-sm-5 col" required>
             <button
                 class="btn btn-primary rounded-0 text-uppercase px-sm-5"
                 type="submit" 

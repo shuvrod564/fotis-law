@@ -18,7 +18,7 @@
     <?php  include_once "includes/header.inc.php"; ?>
  
     <!--Header Wrapper-->
-    <div class="inner-header mb-5" style="background: #000 url('assets/images/locations/Fujairah.webp') no-repeat center center / cover;box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.65);">
+    <div class="inner-header mb-5" style="background: #000 url('assets/images/locations/Fujairah.webp') no-repeat center center / cover;">
         <div class="container">
             <h1 class="h1 text-start">
                 Fujairah

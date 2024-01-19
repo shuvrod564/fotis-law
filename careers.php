@@ -144,7 +144,7 @@
                         <div class="col-md-6 col-lg-4">
                             <div class="form-group">
                                 <label for="resume">Resume/CV:</label>
-                                <input id="resume" type="text" name="country" class="form-control rounded-0 border-0 border-bottom px-0"> 
+                                <input id="resume" type="file" name="country" class="form-control rounded-0 border-bottom"> 
                             </div>
                         </div>
                         <div class="col-md-12">
